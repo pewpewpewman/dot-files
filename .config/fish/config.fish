@@ -1,5 +1,8 @@
 if status is-interactive
-	alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+end
+
+function config
+	/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME $argv
 end
 
 function fish_greeting
