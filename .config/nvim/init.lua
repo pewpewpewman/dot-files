@@ -18,7 +18,8 @@ vim.o.relativenumber = true
 -- LSP
 vim.lsp.enable({
 	'emmylua_ls',
-	'rust_analyzer'
+	'rust_analyzer',
+	'clangd'
 })
 
 vim.opt.completeopt = { "menuone", "noselect", "popup" }
