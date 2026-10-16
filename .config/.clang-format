@@ -1,0 +1,12 @@
+BasedOnStyle: LLVM
+IndentWidth: 8
+UseTab: AlignWithSpaces
+BreakBeforeBraces: Attach
+AllowShortIfStatementsOnASingleLine: false
+IndentCaseLabels: true
+#BinPackArguments: false
+ColumnLimit: 80
+AlignAfterOpenBracket: true
+InsertBraces: true
+PointerAlignment: Left
+BreakBeforeBinaryOperators: NonAssignment

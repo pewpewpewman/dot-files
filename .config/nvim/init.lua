@@ -10,6 +10,7 @@ vim.cmd('colorscheme vim')
 vim.api.nvim_set_hl(0, 'Pmenu', { link = 'SignColumn' })
 vim.o.cursorline = true
 vim.o.mouse = ""
+vim.g.mapleader = " "
 
 -- Enable both line and relative line number at once
 vim.o.number = true
@@ -64,7 +65,7 @@ vim.api.nvim_create_autocmd('LspAttach', {
 		-- Diagnostics
 		vim.diagnostic.enable(true)
 		vim.diagnostic.config({
-			--virtual_text = true
+			virtual_text = false
 			--log_level = vim.log.levels.ERROR
 		})
 
